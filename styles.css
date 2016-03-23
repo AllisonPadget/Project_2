@@ -8,8 +8,7 @@ body {
   background: linear-gradient(to top, #000 -70%, #fafafa, #fdf6f6);
  /*background: #fafafa;
   background: #fdf6f6;*/
-
-  /*text-align: center;*/
+  text-align: center;
 }
 
 
@@ -123,8 +122,6 @@ section p {
 }
 
 .gallery img {
-  /*width: 350px;
-  height: 200px;*/
   width: 100%;
   padding: 0 15px;
   max-width: 440px;

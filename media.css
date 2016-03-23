@@ -141,8 +141,6 @@
 
 	/***** TOP NAV *****/
 	.flex-nav {
-/*		display: inline-flex;
-		justify-content: space-around;*/
 		float: right;
 	}
 
@@ -212,9 +210,6 @@
 	}
 
 	.gallery img {
-		/*width: 315px;
-		height: 200px;*/
-
 		padding: 0 5px;
 	}
 
