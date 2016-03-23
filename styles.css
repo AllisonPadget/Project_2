@@ -1,0 +1,245 @@
+
+/* Global Layout Set-up */
+
+body {
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  color: #4A4A4A;
+  background: linear-gradient(to top, #000 -70%, #fafafa, #fdf6f6);
+ /*background: #fafafa;
+  background: #fdf6f6;*/
+
+  /*text-align: center;*/
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* HEADER */
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  margin: 20px 0px 10px 0px;
+  font-size: 1.5em;
+}
+
+
+/* NAVIGATION */
+
+
+.main-nav {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-nav a {
+  display: block;
+  text-decoration: none;
+  color: #4A4A4A;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.nav {
+  list-style: none;
+  margin: 10px 5px 30px 5px;
+  padding: 5px;
+}
+
+.nav li {
+  text-align: center;
+  background: #fff;
+  margin: 5px;
+}
+
+
+.main-nav a:hover {
+  color: gray;
+;}
+
+
+
+/* ABOUT  */
+
+.about {
+  text-align: center;
+}
+
+.about p {
+  margin-top: 10px;
+  font-weight: 300;
+  line-height: 1.75;
+  padding: 5px 20px 20px 20px;
+  color: #7F7F7F;
+}
+
+.about img {
+  height: 150px;
+  margin: 0px auto;
+}
+
+/* MAIN SECTION */
+
+section {
+  background: #fff;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+section p {
+  line-height: 1.5;
+}
+
+
+.gallery {
+  text-align: center;
+  margin: 0px 10px;
+
+}
+
+/*  PORTFOLIO   */
+
+.portfolio h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  font-size: 1.2em;
+}
+
+.gallery img {
+  /*width: 350px;
+  height: 200px;*/
+  width: 100%;
+  padding: 0 15px;
+  max-width: 440px;
+}
+
+
+.portfolio h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2em;
+  padding-top: 10px;
+}
+
+.portfolio p {
+  text-align: center;
+  font-weight: 300;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+}
+
+/*  SKILLS   */
+
+.skills h2 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  font-size: 1.2em;
+}
+
+
+/*  CONTACT   */
+
+.contact h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 1em;
+}
+
+.contact p {
+  text-align: center;
+  font-weight: 300;
+  color: #7F7F7F;
+  padding: 5px 10px;
+
+}
+
+.contact-info {
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+  padding-bottom: 50px;
+  color: #7F7F7F;
+}
+
+.contact-info li {
+  padding-top: 10px;
+  font-weight: 300;
+}
+
+.contact-info a {
+  font-weight: 400;
+  color: #7F7F7F;
+  font-weight: 700;
+}
+
+.contact-info span {
+  margin-right: 15px;
+}
+
+/*  FOOTER   */
+
+.footer {
+  border-top: 1px solid #E7E7E7;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.student-name {
+  font-weight: bold;
+  float: left;
+  padding: 30px 0px;
+}
+
+/*** BACK TO TOP ***/
+
+.top {
+  text-transform: uppercase;
+  float: right;
+  padding: 30px 0px;
+  font-size: 12px;
+}
+
+.top a {
+  font-weight: bold;
+}
+
+/** do not display footer nav in mobile **/
+.footer-nav {
+  display: none;
+}
+
+/********   CLEARFIX   ********/
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+

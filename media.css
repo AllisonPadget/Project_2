@@ -1,0 +1,278 @@
+
+/**********************************
+		|  ** ** ** ** ** ** ** **
+		|         * * *
+		|    MEDIA QUERY 768px
+		|         * * *
+	 \ /  ** ** ** ** ** ** ** **
+		\/
+*************************************/
+
+/* Styles for larger screens */
+@media screen and (min-width: 768px) {
+
+	/***** TOP NAV *****/
+	.flex-nav {
+		display: inline-flex;
+		justify-content: space-around;
+	}
+
+	.nav li {
+		background: #fdf6f6;
+	}
+
+	.main-nav {
+		padding-top: 10px;
+	}
+
+	.main-nav a {
+		display: inline;
+	}
+
+
+	/***** ABOUT SECTION *****/
+
+	.about {
+		margin-top: 50px;
+		margin-bottom: 70px;
+		display: block;
+	}
+
+	.about img {
+		height: 200px;
+		margin-right: 35px;
+		margin-left: 10px;
+		float: right;
+	}
+
+	.about p {
+		font-size: 1.15em;
+		padding-top: 0px;
+		padding-left: 30px;
+		text-align: left;
+	}
+
+	/*** PORTFOLIO SECTION ***/
+
+	.gallery {
+		padding: 0 10px;
+	}
+
+	.portfolio p {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+
+	.item {
+		float: left;
+		width: 50%;
+		height: 400px;
+	}
+
+
+	/***** CONTACT SECTION *****/
+
+	.contact {
+		margin: 0;
+		padding: 0;
+		font-size: 1.2em;
+		text-align: center;
+		margin: 0 75px;
+	}
+
+
+
+	/***** FOOTER *****/
+
+	.footer-nav {
+		display: block;
+		float: right;
+		margin-right: 20px;
+		padding: 30px 0;
+	}
+
+	.nav {
+		margin: 0;
+		padding: 0;
+		text-transform: uppercase;
+	}
+
+	.footer-nav li {
+		background: #D2D2D2;
+	}
+
+	.student-name,
+	.nav {
+		font-size: 0.8em;
+	}
+
+	.nav a {
+		font-weight: 700;
+		padding: 10px;
+		color: #4A4A4A;
+	}
+
+
+
+	/* do not display Back to Top button*/
+	.top {
+		display: none;
+	}
+}
+
+
+/**********************************
+		|  ** ** ** ** ** ** ** **
+		|         * * *
+		|    MEDIA QUERY 1024px
+		|         * * *
+	 \ /  ** ** ** ** ** ** ** **
+		\/
+*************************************/
+
+
+@media screen and (min-width:1024px){
+
+
+	.header {
+		float: left;
+		padding-left: 50px;
+	}
+
+	/***** TOP NAV *****/
+	.flex-nav {
+/*		display: inline-flex;
+		justify-content: space-around;*/
+		float: right;
+	}
+
+	.nav li {
+		background: #fdf6f6;
+	}
+
+	.main-nav {
+		padding-top: 25px;
+		padding-right: 40px;
+		margin-top: 25px;
+	}
+
+	.main-nav a {
+		display: inline;
+	}
+
+	/***** ABOUT SECTION *****/
+
+	.about {
+		padding-top: 30px;
+		margin-top: 50px;
+		display: block;
+	}
+
+	.about img {
+		height: 225px;
+		margin-right: 50px;
+		margin-left: 25px;
+		float: right;
+	}
+
+
+	.about p {
+		font-size: 1.3em;
+		margin-left: 15px;
+		line-height: 1.5;
+		margin-top: -5px;
+		max-width: 600px;
+
+	}
+
+	/*** PORTFOLIO SECTION ***/
+
+	/* max width on main content */
+
+	.gallery {
+		max-width: 1200px;
+	}
+
+	section {
+		text-align: center;
+	}
+
+
+
+	.portfolio p {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+
+
+	.gallery {
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+	}
+
+	.gallery img {
+		/*width: 315px;
+		height: 200px;*/
+
+		padding: 0 5px;
+	}
+
+	.gallery {
+		font-size: 1em;
+	}
+
+	.item {
+		width: 33.33%;
+	}
+
+	section {
+		padding-bottom: 0px;
+	}
+
+
+
+		/*** CONTACT SECTION ***/
+
+	.contact p {
+		padding: 0 175px;
+	}
+
+
+		/***** FOOTER *****/
+
+	.footer-nav {
+		display: block;
+		float: right;
+		margin-right: 10px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	
+	.footer-nav li {
+		background: #D2D2D2;
+	}
+
+	.nav {
+		margin: 0;
+		padding: 0;
+		text-transform: uppercase;
+	}
+
+	.student-name,
+	.nav {
+		font-size: 0.8em;
+	}
+
+	.nav a {
+		font-weight: 700;
+		padding: 10px;
+		color: #4A4A4A;
+	}
+
+		/* do not display Back to Top button*/
+	.top {
+		display: none;
+	}
+
+}
